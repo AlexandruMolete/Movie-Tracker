@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #c7c6c3;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header{
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+#header h1{
+  background-color: #f5c518;
+  border-radius: 0.5rem;
+  margin-left: 3rem;
+  width: 15%;
+  text-align: center;
+}
+
+#header p{
+  color: white;
+  margin-left: 1rem;
+}
+
+.Film{
+  display: flex;
+  align-items: center;
+  width: 47%;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.Film ul{
+  list-style-type: none;
+}
+
+.Film ul li{
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  text-align: justify;
+  width: 90%;
+}
+
+#filmsList{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageOfFilm{
+  width: 182px;
+  height: 268px;
+}
+
+#addFilm{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: #333333;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: white;
+  margin: 1rem;
+}
+
+#addFilm input:not(:last-child){
+  margin-bottom: 1rem;
+}
+
+#submitButton{
+  background-color: #333333;
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+#submitButton:hover{
+  background-color: #0e83e8;
+  border-color: #0e83e8;
+}
+
+#submitButton:active{
+  background-color: #0e63be;
+  border-color: #0e63be;
+}
+
+.sortButton{
+  background-color: #c7c6c3;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.sortButton:hover{
+  background-color: #0e83e8;
+  border-color: #0e83e8;
+  color: white;
+}
+
+.sortButton:active{
+  background-color: #0e63be;
+  border-color: #0e63be;
+  color: white;
+}
+
+h2{
+  margin: 1rem;
+}
+
+.RemoveButton{
+  background-color: red;
+  border: 1px solid;
+  border-color: red;
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  padding-bottom: 0.1rem;
+}
+
+.RemoveButton:active{
+  background-color: darkred;
+  border-color: darkred;
+}
